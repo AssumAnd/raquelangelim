@@ -33,7 +33,7 @@ branco: #ede9ed
 
 .banner {
     height: 700PX;
-    background: url(./assets/wallpaper.jpg);
+    background: wheat;
     background-repeat: no-repeat;
     background-size: cover;
 
