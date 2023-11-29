@@ -74,12 +74,37 @@ branco: #ede9ed
 
 
 
+.sobre1 {
+    background-color: #C864C2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.imgsobre1 img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 1PX SOLID purple;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.perguntas{
+    background-color: #C864C2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.perguntasBox{
+    margin: 190PX;
+}
 
 
 
-
-
-.contenttext{
+.contenttext {
     width: 50%;
 }
 
@@ -104,7 +129,9 @@ branco: #ede9ed
     border-radius: 50%;
 }
 
-.teste1, .teste2, .teste3 {
+.teste1,
+.teste2,
+.teste3 {
     gap: 20px;
     display: flex;
     align-items: center;
@@ -198,6 +225,7 @@ branco: #ede9ed
     justify-content: center;
     margin-top: 45PX;
     text-align: center;
+    margin-bottom: 45PX;
 }
 
 .autor {
@@ -220,4 +248,10 @@ branco: #ede9ed
 footer {
     height: 50px;
     background-color: #ede9ed;
+}
+
+
+.comoFuncionaBox{
+    display: flex;
+    justify-content: space-around;
 }
