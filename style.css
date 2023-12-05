@@ -71,11 +71,20 @@ branco: #ede9ed
 
 
 
+.comoFunciona {
+    text-align: center;
+    background-color: gray;
+}
 
+.comoFuncionaBox i {
+    font-size: 2em;
+}
 
 
 .sobre1 {
-    background-color: #C864C2;
+    background-image: url(./assets/wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -90,7 +99,8 @@ branco: #ede9ed
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.perguntas{
+
+.perguntas {
     background-color: #C864C2;
     display: flex;
     align-items: center;
@@ -98,7 +108,7 @@ branco: #ede9ed
     padding: 30px;
 }
 
-.perguntasBox{
+.perguntasBox {
     margin: 190PX;
 }
 
@@ -179,8 +189,6 @@ branco: #ede9ed
 .circles {
     display: flex;
     justify-content: center;
-
-    text-align: center;
     background-color: bisque;
 }
 
@@ -197,20 +205,6 @@ branco: #ede9ed
 }
 
 
-.content-sobre {
-    display: flex;
-    align-items: center;
-    width: 60%;
-    margin: auto;
-    gap: 45px;
-    margin-top: 45px;
-}
-
-.imgsobre img {
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-}
 
 .slogan {
     background-color: #cae0e0;
@@ -251,7 +245,11 @@ footer {
 }
 
 
-.comoFuncionaBox{
+.comoFuncionaBox {
     display: flex;
+    height: 400PX;
+    align-items: center;
+    font-size: 2em;
     justify-content: space-around;
+
 }
