@@ -211,7 +211,7 @@ Cinza azulado (#D1D9E0)
 }
 
 
-.frase-sobre{
+.frase-sobre {
     MARGIN-TOP: 20PX;
     FONT-SIZE: 20PX;
     font-weight: 400;
@@ -231,7 +231,7 @@ Cinza azulado (#D1D9E0)
 
 
 
-.front img{
+.front img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -242,13 +242,16 @@ Cinza azulado (#D1D9E0)
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 300px; /* Ajuste conforme necessário */
+    height: 300px;
+    /* Ajuste conforme necessário */
     background-color: red;
 }
 
 .circle1 {
-    width: 200px; /* Ajuste conforme necessário */
-    height: 200px; /* Ajuste conforme necessário */
+    width: 200px;
+    /* Ajuste conforme necessário */
+    height: 200px;
+    /* Ajuste conforme necessário */
     perspective: 1000px;
 }
 
@@ -273,6 +276,10 @@ Cinza azulado (#D1D9E0)
     backface-visibility: hidden;
 }
 
+.frase {
+    background-image: url(https://i.pinimg.com/474x/dd/2d/9b/dd2d9b6c53db92f2051e91936a4110a4.jpg);
+}
+
 .front img {
     width: 100%;
     height: 100%;
@@ -280,7 +287,8 @@ Cinza azulado (#D1D9E0)
 
 .back {
     transform: rotateY(180deg);
-    background-color: #f0f0f0; /* Cor de fundo para o texto por trás da imagem */
+    background-color: #f0f0f0;
+    /* Cor de fundo para o texto por trás da imagem */
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -317,7 +325,13 @@ Cinza azulado (#D1D9E0)
 
 
 
-
+.whatsapp{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    z-index: 22;
+    position: 50% 25% fixed;
+}
 
 
 
@@ -332,9 +346,9 @@ Cinza azulado (#D1D9E0)
 .frase {
     display: flex;
     justify-content: center;
-    margin-top: 45PX;
+    padding-top: 95px;
     text-align: center;
-    margin-bottom: 45PX;
+    padding-bottom: 95px;
 }
 
 .autor {
