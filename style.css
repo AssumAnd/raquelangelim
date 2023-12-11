@@ -15,29 +15,12 @@
 
 cores
 
-azul : #cae0e0
+AZUL: cae0e0
+LILAS: cbc3ee
 branco: #ede9ed
-
-Rosa bebê (#F8B8C4)
-Azul céu claro (#AED9E0)
-Verde menta (#B8E0D2)
-Amarelo suave (#F9E4B7)
-Lilás claro (#D7B9E4)
-Cinza claro (#EAEAEA)
-Azul bebê (#C4D8E2)
-Verde água (#B2DFDB)
-Rosa suave (#F5C1C8)
-Amarelo pálido (#FFF4CF)
+rosa: e4c7d1
+laranja: d15800
 Lavanda suave (#E1D5E7)
-Cinza azulado (#D1D9E0)
-
-
-
-
-
-
-
-
 
 
 
@@ -106,7 +89,7 @@ Cinza azulado (#D1D9E0)
 
 
 .sobre1 {
-    background-image: url(./assets/wallpaper.png);
+    background-image: url(./assets/PAPEL\ DE\ PAREDE.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -125,17 +108,26 @@ Cinza azulado (#D1D9E0)
 }
 
 .perguntas {
-    background-color: #C864C2;
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 30px;
 }
 
-.perguntasBox {
-    margin: 190PX;
+.perguntasBox h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20PX;
+    margin-bottom: 10PX;
 }
 
+.perguntasBox h1, h3, h2{
+    font-weight: 300;
+    padding: 5px;
+}
+.perguntasBox h3{
+    margin-top: 50PX;
+}
 
 
 .contenttext {
@@ -244,7 +236,9 @@ Cinza azulado (#D1D9E0)
     align-items: center;
     height: 300px;
     /* Ajuste conforme necessário */
-    background-color: red;
+    background-image: url(./assets/aeeeeeeeeeeeeee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .circle1 {
@@ -321,16 +315,20 @@ Cinza azulado (#D1D9E0)
 
 
 
-
-
-
-
-.whatsapp{
-    height: 200px;
-    width: 200px;
-    background-color: green;
-    z-index: 22;
-    position: 50% 25% fixed;
+.banner i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    z-index: 2;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #25D366;
+    padding: 22px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 
