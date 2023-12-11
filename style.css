@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-
+    scroll-behavior:smooth;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -54,6 +54,10 @@ Lavanda suave (#E1D5E7)
     display: flex;
     justify-content: end;
     align-items: center;
+    text-decoration: none;
+}
+
+.header0 a {
     text-decoration: none;
 }
 
@@ -231,11 +235,13 @@ Lavanda suave (#E1D5E7)
     /* Ajuste conforme necessário */
     perspective: 1000px;
 }
-.gif{
+
+.gif {
     width: 200PX;
     height: 200px;
     padding: 30px
 }
+
 .card {
     width: 100%;
     height: 100%;
@@ -258,7 +264,7 @@ Lavanda suave (#E1D5E7)
 }
 
 .frase {
-background-color: #cae0e0;
+    background-color: #cae0e0;
 }
 
 .front img {
@@ -332,16 +338,16 @@ background-color: #cae0e0;
     align-items: center;
 }
 
-.conttitle{
+.conttitle {
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 300;
-    text-decoration:underline;
+    text-decoration: underline;
     margin-bottom: 45PX;
 }
 
 
-.content-contato p{
+.content-contato p {
     padding: 5px;
 }
 
