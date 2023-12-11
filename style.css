@@ -9,6 +9,17 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*
+GIFS
+
+https://giphy.com/stickers/flower-stars-kirana-kMAsQuuEeQIwm4eSVJ
+
+https://giphy.com/search/cloud-transparent-stickers
+
+https://giphy.com/stickers/butterfly-ffxiv-khaiani-sIIc9jbMvqtibJT0X3
+
+
+*/
 
 /*
 cores
@@ -19,6 +30,9 @@ rosa: e4c7d1
 laranja: d15800
 Lavanda suave (#E1D5E7)
 */
+
+
+
 .formacao h2 {
     font-weight: 300;
     padding: 10px;
@@ -136,6 +150,7 @@ Lavanda suave (#E1D5E7)
 
 .perguntasBox h1 {
     text-align: center;
+    font-size: 2em;
     text-transform: uppercase;
     padding: 20PX;
     margin-bottom: 10PX;
@@ -161,7 +176,7 @@ Lavanda suave (#E1D5E7)
 
 .terapias {
     margin-top: 40px;
-    font-size: x-large;
+    font-size: 2em;
     text-transform: uppercase;
     font-weight: 400;
 }
@@ -270,14 +285,14 @@ background-color: #cae0e0;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 45px;
     z-index: 2;
     position: fixed;
-    bottom: 50px;
-    right: 50px;
+    bottom: 75px;
+    right: 75px;
     background-color: #25D366;
     padding: 20px;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 1px solid white;
     cursor: pointer;
 }
@@ -304,15 +319,55 @@ background-color: #cae0e0;
 
 .contato {
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21zbm5yM2ZkN2F1MWc0bW10eGV0bjRoa3kzb3lyOW94ODh0MmtraSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/sIIc9jbMvqtibJT0X3/giphy.gif);
+    background-repeat: no-repeat;
+    background-position: 40%;
 }
+
 
 .content-contato {
     display: flex;
-    justify-content: center;
-    gap: 100PX;
+    justify-content: space-around;
     align-items: center;
 }
+
+.conttitle{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 300;
+    text-decoration:underline;
+    margin-bottom: 45PX;
+}
+
+
+.content-contato p{
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     height: 50px;
