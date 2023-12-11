@@ -80,7 +80,10 @@ Lavanda suave (#E1D5E7)
 
 .comoFunciona {
     text-align: center;
-    background-color: gray;
+    background-image: url(./assets/vasco.png);
+    background-repeat: no-repeat;
+background-size: cover;
+background-size: 100%;
 }
 
 .comoFuncionaBox i {
@@ -121,11 +124,12 @@ Lavanda suave (#E1D5E7)
     margin-bottom: 10PX;
 }
 
-.perguntasBox h1, h3, h2{
+.perguntasBox h1, h3, h2 {
     font-weight: 300;
     padding: 5px;
 }
-.perguntasBox h3{
+
+.perguntasBox h3 {
     margin-top: 50PX;
 }
 
