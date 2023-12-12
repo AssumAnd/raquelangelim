@@ -291,18 +291,21 @@ Lavanda suave (#E1D5E7)
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 45px;
+    font-size: 40px;
     z-index: 2;
     position: fixed;
     bottom: 75px;
     right: 75px;
     background-color: #25D366;
-    padding: 20px;
-    border-radius: 100%;
-    border: 1px solid white;
+    padding:20px;
+    border-radius: 50%;
+    border: 3px solid white;
     cursor: pointer;
 }
 
+.banner i:hover{
+    background-color: green;
+}
 .slogan {
     background-color: #cae0e0;
     width: 50%;
