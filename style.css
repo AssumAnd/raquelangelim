@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -42,13 +42,6 @@ Lavanda suave (#E1D5E7)
     margin-right: 10px;
 }
 
-.logoR {
-    height: 120px;
-    width: 350px;
-    display: flex;
-    margin-right: 900PX;
-}
-
 .header0 ul {
     font-size: 1.2em;
     display: flex;
@@ -67,8 +60,20 @@ Lavanda suave (#E1D5E7)
     text-transform: uppercase;
 }
 
+.logo {
+    display: flex;
+    flex-direction: column;
+    font-size: 25PX;
+    color: #C864C2;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
 .header0 {
     background-color: #ede9ed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .banner {
@@ -297,15 +302,16 @@ Lavanda suave (#E1D5E7)
     bottom: 75px;
     right: 75px;
     background-color: #25D366;
-    padding:20px;
+    padding: 20px;
     border-radius: 50%;
     border: 3px solid white;
     cursor: pointer;
 }
 
-.banner i:hover{
+.banner i:hover {
     background-color: green;
 }
+
 .slogan {
     background-color: #cae0e0;
     width: 50%;
@@ -417,5 +423,12 @@ footer {
 .contenttext h1 {
     padding-bottom: 10PX;
     font-weight: 300;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .content-contato, .frase {
+        flex-direction: column;
+    }
 
 }
