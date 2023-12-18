@@ -409,7 +409,9 @@ footer {
 
 
 
-
+.mapa iframe {
+    width: 600PX;
+}
 
 
 
@@ -431,4 +433,34 @@ footer {
         flex-direction: column;
     }
 
+}
+
+@media screen and (max-width: 600px) {
+    .teste1 {
+        flex-direction: column;
+    }
+
+    .teste2 {
+        flex-direction: column-reverse;
+    }
+
+    .teste3 {
+        flex-direction: column;
+    }
+
+    .circles {
+        flex-direction: column
+    }
+
+    .banner h1 {
+        font-size: 1em;
+    }
+
+    .mapa {
+        width: 200px;
+    }
+
+    .header0 ul {
+        font-size: 10px
+    }
 }
