@@ -340,7 +340,6 @@ Lavanda suave (#E1D5E7)
     background-position: 40%;
 }
 
-
 .content-contato {
     display: flex;
     justify-content: space-around;
@@ -355,34 +354,9 @@ Lavanda suave (#E1D5E7)
     margin-bottom: 45PX;
 }
 
-
 .content-contato p {
     padding: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer {
     height: 50px;
@@ -397,35 +371,15 @@ footer {
     align-items: center;
     font-size: 2em;
     justify-content: space-around;
-
 }
-
-
-
-
-
-
-
-
-
 
 .mapa iframe {
     width: 600PX;
 }
 
-
-
-
-
-
-
-
-
-
 .contenttext h1 {
     padding-bottom: 10PX;
     font-weight: 300;
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -494,11 +448,14 @@ footer {
 
     .comoFuncionaBox {
         flex-direction: column;
+        gap: 50px;
+        padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .slogan {
         width: 100%;
-
     }
 
     .gif {
@@ -510,17 +467,14 @@ footer {
         width: 80%;
     }
 
-    .comoFuncionaBox {
-        gap: 50px;
-    }
-
     .banner i {
         right: 30px;
         bottom: 30px;
         font-size: 25PX;
         padding: 15px
     }
-    .sobre1 h1, h2{
+
+    .sobre1 h1, h2 {
         text-align: center;
     }
 
