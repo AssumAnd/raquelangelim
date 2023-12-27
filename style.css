@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Commissioner&family=Quicksand:wght@500&display=swap');
 
 
 * {
@@ -6,10 +6,15 @@
     padding: 0;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*
+
+font-family: 'Comfortaa', sans-serif;
+font-family: 'Commissioner', sans-serif;
+font-family: 'Quicksand', sans-serif;
+
+
 cores
 AZUL: cae0e0
 LILAS: cbc3ee
@@ -33,7 +38,13 @@ nav a {
     text-transform: uppercase;
 }
 
+nav p {
+    cursor: pointer;
+}
+
 nav {
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
     color: #C864C2;
     background-color: #ede9ed;
     display: flex;
@@ -165,7 +176,7 @@ nav {
 }
 
 .banner h1 {
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 4em;
     margin-left: 45px;
@@ -182,18 +193,22 @@ nav {
 }
 
 .iconfrase p {
+    font-family: 'Comfortaa', sans-serif;
     padding-top: 10px;
     font-weight: 100;
+    font-size: 20px;
 }
 
 .comoFunciona h1 {
+    font-family: 'Quicksand', sans-serif;
     padding-top: 40px;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2em;
 }
 
 .formacao {
+    font-family: 'Comfortaa', sans-serif;
     font-size: large;
     font-weight: 300;
     list-style: none;
@@ -207,8 +222,9 @@ nav {
     padding: 30px;
 }
 
-.sobre1 h1, h2 {
+.sobre1 h1, .sobre1 h2 {
     font-weight: 400;
+    font-family: 'Commissioner', sans-serif;
 }
 
 .formacao li {
@@ -238,25 +254,28 @@ nav {
 }
 
 .perguntasBox h1 {
+    font-family: 'Commissioner', sans-serif;
     text-align: center;
     font-size: 2em;
     text-transform: uppercase;
-    padding: 20PX;
+    padding: 25PX;
     margin-bottom: 10PX;
-}
-
-.perguntasBox h1, h3 {
     font-weight: 300;
-    padding: 5px;
-}
-
-.perguntasBox h2 {
-    font-weight: 300;
-    padding: 5px;
 }
 
 .perguntasBox h3 {
+    font-weight: bold;
+    padding: 5px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.perguntasBox h2 {
+    font-size: 25PX;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
     margin-top: 50PX;
+    padding: 5px;
 }
 
 .contenttext {
@@ -267,6 +286,7 @@ nav {
     margin-top: 40px;
     font-size: 2em;
     text-transform: uppercase;
+    font-family: 'Commissioner', sans-serif;
     font-weight: 400;
 }
 
@@ -344,6 +364,7 @@ nav {
 
 .front,
 .back {
+    font-family: 'Comfortaa', sans-serif;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -351,7 +372,10 @@ nav {
 }
 
 .frase {
+
     background-color: #cae0e0;
+    font-family: 'Comfortaa', sans-serif;
+
 }
 
 .front img {
@@ -412,6 +436,8 @@ nav {
 .autor {
     display: flex;
     justify-content: end;
+    padding-top: 15PX;
+    font-style: italic;
 }
 
 .info {
@@ -437,11 +463,10 @@ nav {
 }
 
 .conttitle {
+    font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 300;
-    text-decoration: underline;
-    margin-bottom: 45PX;
 }
 
 .content-contato p {
@@ -467,7 +492,12 @@ footer {
     width: 600PX;
 }
 
+.contenttext p {
+    font-family: 'Comfortaa', sans-serif;
+}
+
 .contenttext h1 {
+    font-family: 'Quicksand', sans-serif;
     padding-bottom: 10PX;
     font-weight: 300;
 }
