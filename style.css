@@ -173,7 +173,7 @@ nav {
 
 .banner {
     height: 700PX;
-    background: url(./assets/header.jpg);
+    background: url(./assets/Criando\ pontes\ para\ um\ desenvolvimento\ feliz2.jpg);
     background-repeat: no-repeat;
     background-position: 80%;
     background-size: 35%;
@@ -214,6 +214,7 @@ nav {
 }
 
 .formacao {
+    text-transform: uppercase;
     font-family: 'Comfortaa', sans-serif;
     font-size: large;
     font-weight: 300;
