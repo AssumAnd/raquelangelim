@@ -29,7 +29,13 @@ Lavanda suave (#E1D5E7)
 
 
 
-.info,  .textos, .slogan, .perguntas, .comoFunciona, .contato, ul{
+.info,
+.textos,
+.slogan,
+.perguntas,
+.comoFunciona,
+.contato,
+ul {
     color: purple
 }
 
