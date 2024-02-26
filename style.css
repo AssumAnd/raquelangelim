@@ -27,7 +27,7 @@ Lavanda suave (#E1D5E7)
 
 .info,
 .textos,
-.slogan,
+
 .perguntas,
 .comoFunciona,
 .contato,
@@ -59,6 +59,11 @@ nav {
     align-items: center;
     justify-content: space-around;
 
+}
+
+
+.Contato-Box {
+    font-size: 1.1em;
 }
 
 .nav-list {
@@ -308,6 +313,11 @@ mark {
     width: 50%;
 }
 
+
+.contenttext h1 {
+    color: #7531A0;
+}
+
 .terapias {
     margin-top: 40px;
     font-size: 2em;
@@ -331,11 +341,12 @@ mark {
 .teste1,
 .teste2,
 .teste3 {
-    gap: 20px;
+    gap: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: large;
+    margin: 20PX;
 }
 
 .card1 {
@@ -445,11 +456,14 @@ mark {
 }
 
 .slogan {
+    color: #7531A0;
     background-color: #cae0e0;
     width: 50%;
     padding: 35px;
     font-size: 26PX;
 }
+
+
 
 .frase {
     display: flex;
@@ -533,28 +547,7 @@ footer {
     transform: rotate(180deg)scaleY(-1);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/*MEDIA QUERY*/
-
-
-
-
-
-
-
 @media screen and (max-width: 1280px) {
-
-    /* HOME PAGE */
     .banner-cont {
         flex-direction: column;
         gap: 0;
@@ -570,26 +563,12 @@ footer {
     }
 }
 
-
-
-
-
-
 @media screen and (max-width: 1100px) {
 
     #gif1,
     #gif2 {
         display: none;
     }
-
-
-
-
-    /* COMO FUNCIONA */
-
-
-
-
 }
 
 @media screen and (max-width: 1000px) {
@@ -599,74 +578,17 @@ footer {
         flex-direction: column;
     }
 
-    /* 
-centralização da frase E margin bottom  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
-@media screen and(max-width: 960px) {
-
-    /* PARTE DOS TEXTOS  E ADICIONAR MARGIN */
-
-
-}
-
-@media screen and (max-width: 660px) {
-    .banner-cont {
-        text-align: center;
-      
+    .content-contato {
+        margin-bottom: 45px;
     }
 
-    .banner-frase{
-        font-size: 0.6em;
+    .slogan {
+        width: 100%;
     }
 
-    .banner-cont img {
-        width: 400px;
-        height: 400px;
+    .gif {
+        margin: auto;
     }
-    #frase2{
-        font-size: 20px;
-    }
-    .circles {
-        flex-direction: column;
-        height: 100%;
-        gap: 40px;
-        padding-bottom: 30px;
-    }
-
-}
-
-@media screen and (max-width: 600px) {
-
-    .banner-cont img {
-        width: 300px;
-        height: 300px;
-    }
-
 
     .teste1 {
         flex-direction: column;
@@ -679,9 +601,86 @@ centralização da frase E margin bottom  */
     .teste3 {
         flex-direction: column;
     }
-    
 
+    .textos img {
+        width: 300px;
+        height: 300px;
+    }
 
+    .contenttext {
+        padding-top: 40px;
+        width: 80%;
+    }
+
+    .textos {
+        padding-bottom: 30px;
+    }
+
+    .textos img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .teste1, .teste2, .teste3 {
+        margin: 30px;
+        text-align: center;
+    }
+
+    .contenttext h1 {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .contenttext {
+        padding-top: 40px;
+        width: 80%;
+    }
+
+    .content-contato {
+        gap: 50PX;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .banner-cont {
+        text-align: center;
+    }
+
+    .banner-frase {
+        font-size: 0.6em;
+    }
+
+    .banner-cont img {
+        width: 400px;
+        height: 400px;
+    }
+
+    #frase2 {
+        font-size: 20px;
+    }
+
+    .circles {
+        flex-direction: column;
+        height: 100%;
+        gap: 40px;
+        padding-bottom: 30px;
+    }
+
+    .comoFuncionaBox {
+        flex-direction: column;
+        gap: 50px;
+        padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner-cont img {
+        width: 300px;
+        height: 300px;
+    }
 
     .mapa iframe {
         width: 300px;
@@ -711,27 +710,6 @@ centralização da frase E margin bottom  */
         height: 300px;
     }
 
-    .textos img {
-        width: 300px;
-        height: 300px;
-    }
-
-    .comoFuncionaBox {
-        flex-direction: column;
-        gap: 50px;
-        padding: 10px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .slogan {
-        width: 100%;
-    }
-
-    .gif {
-        margin: auto;
-    }
-
     .contenttext {
         padding-top: 40px;
         width: 80%;
@@ -750,9 +728,5 @@ centralização da frase E margin bottom  */
 
     .sobre1 h2 {
         text-align: center;
-    }
-
-    .textos {
-        padding-bottom: 30px;
     }
 }
