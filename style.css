@@ -14,7 +14,6 @@ font-family: 'Comfortaa', sans-serif;
 font-family: 'Commissioner', sans-serif;
 font-family: 'Quicksand', sans-serif;
 
-
 cores
 AZUL: cae0e0
 LILAS: cbc3ee
@@ -24,10 +23,7 @@ laranja: d15800
 Lavanda suave (#E1D5E7)
 */
 
-
 /* NAVBAR*/
-
-
 
 .info,
 .textos,
@@ -36,7 +32,7 @@ Lavanda suave (#E1D5E7)
 .comoFunciona,
 .contato,
 ul {
-    color: purple
+    color: #994DC8
 }
 
 a:hover {
@@ -83,7 +79,7 @@ nav {
 .mobile-menu div {
     width: 32px;
     height: 2px;
-    background: #fff;
+    background: #C864C2;
     margin: 8px;
     transition: 0.3s;
 }
@@ -176,22 +172,38 @@ nav {
     padding: 10px;
 }
 
+.banner-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+}
 
 .banner {
-    height: 700PX;
-    background: url(./assets/Criando\ pontes\ para\ um\ desenvolvimento\ feliz2.jpg);
-    background-repeat: no-repeat;
-    background-position: 80%;
-    background-size: 35%;
     align-items: center;
-    display: flex;
+}
+
+
+#frase2 {
+    display: none;
+}
+
+mark {
+    background: none;
+    color: #7531A0;
+
+}
+
+.banner-cont p {
+    color: #C864C2;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
 }
 
 .banner h1 {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-    font-size: 4em;
-    margin-left: 45px;
+    font-size: 2.5em;
     color: #C864C2;
 }
 
@@ -278,7 +290,7 @@ nav {
 }
 
 .perguntasBox h3 {
-    font-weight: bold;
+    font-weight: 100;
     padding: 5px;
     font-family: 'Quicksand', sans-serif;
 
@@ -471,6 +483,7 @@ nav {
 }
 
 .content-contato {
+    FONT-FAMILY: 'COMFORTAA';
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -516,6 +529,52 @@ footer {
     font-weight: 300;
 }
 
+#gif1 {
+    transform: rotate(180deg)scaleY(-1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERY*/
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+
+    /* HOME PAGE */
+    .banner-cont {
+        flex-direction: column;
+        gap: 0;
+        padding: 90px;
+    }
+
+    #frase1 {
+        display: none;
+    }
+
+    #frase2 {
+        display: block;
+    }
+}
+
+
+
+
+
+
 @media screen and (max-width: 1100px) {
 
     #gif1,
@@ -523,18 +582,14 @@ footer {
         display: none;
     }
 
-    .banner h1 {
-        font-size: 1em;
-        display: flex;
-        margin: auto;
-        position: relative;
-        top: -200px;
-    }
 
-    .banner {
-        background-position: 50%;
-        background-size: 70%;
-    }
+
+
+    /* COMO FUNCIONA */
+
+
+
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -544,10 +599,75 @@ footer {
         flex-direction: column;
     }
 
+    /* 
+centralização da frase E margin bottom  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and(max-width: 960px) {
+
+    /* PARTE DOS TEXTOS  E ADICIONAR MARGIN */
+
+
+}
+
+@media screen and (max-width: 660px) {
+    .banner-cont {
+        text-align: center;
+      
+    }
+
+    .banner-frase{
+        font-size: 0.6em;
+    }
+
+    .banner-cont img {
+        width: 400px;
+        height: 400px;
+    }
+    #frase2{
+        font-size: 20px;
+    }
+    .circles {
+        flex-direction: column;
+        height: 100%;
+        gap: 40px;
+        padding-bottom: 30px;
+    }
 
 }
 
 @media screen and (max-width: 600px) {
+
+    .banner-cont img {
+        width: 300px;
+        height: 300px;
+    }
+
+
     .teste1 {
         flex-direction: column;
     }
@@ -559,13 +679,7 @@ footer {
     .teste3 {
         flex-direction: column;
     }
-
-    .circles {
-        flex-direction: column;
-        height: 100%;
-        gap: 40px;
-        padding-bottom: 30px;
-    }
+    
 
 
 
@@ -641,10 +755,4 @@ footer {
     .textos {
         padding-bottom: 30px;
     }
-
-
-}
-
-#gif1 {
-    transform: rotate(180deg)scaleY(-1);
 }
