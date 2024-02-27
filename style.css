@@ -431,6 +431,11 @@ mark {
     border-radius: 50%;
 }
 
+.teste3 img {
+    border-radius: 0;
+padding: 5px;
+}
+
 .back p {
     text-align: center;
 }
@@ -445,9 +450,10 @@ mark {
     bottom: 75px;
     right: 75px;
     background-color: #25D366;
-    padding: 20px;
+    padding: 18px;
+    aspect-ratio: 4/2;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid #C864C2;
     cursor: pointer;
 }
 
