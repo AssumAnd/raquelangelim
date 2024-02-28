@@ -433,7 +433,7 @@ mark {
 
 .teste3 img {
     border-radius: 0;
-padding: 5px;
+    padding: 5px;
 }
 
 .back p {
@@ -627,7 +627,9 @@ footer {
         height: 300px;
     }
 
-    .teste1, .teste2, .teste3 {
+    .teste1,
+    .teste2,
+    .teste3 {
         margin: 30px;
         text-align: center;
     }
