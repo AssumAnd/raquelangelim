@@ -1,4 +1,4 @@
-let navigator = document.getElementById("navzao")
+let navigator = document.getElementById("nav")
 function openMenu() {
     if(navigator.classList.contains('active')){
       navigator.classList.remove('active')
