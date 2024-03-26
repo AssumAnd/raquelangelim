@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+
+header a{
+    color: #C864C2;
+}
+
 /*
 font-family: 'Comfortaa', sans-serif;
 font-family: 'Commissioner', sans-serif;
@@ -515,10 +520,6 @@ mark {
     padding: 5px;
 }
 
-footer {
-    height: 50px;
-    background-color: #ede9ed;
-}
 
 .comoFuncionaBox {
     color: gray;
@@ -547,6 +548,44 @@ footer {
 #gif1 {
     transform: rotate(180deg)scaleY(-1);
 }
+
+
+footer{
+    font-family: 'Quicksand', sans-serif;
+    padding: 50px;
+    color: #994DC8;
+    background: linear-gradient(to top, #DBD0E9, white);
+    height: fit-content;
+    border-top: 1px solid #e5e5e5;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nomePDF h2{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav__title{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#footerf{
+    font-size: 24px
+}
+
+.footerli li{
+    list-style-type: none;
+}
+
+
 
 @media screen and (max-width: 1280px) {
     .banner-cont {
@@ -775,17 +814,7 @@ footer {
     background: #994DC8;
     border: 1px solid white
 }
-
-.footer {
-    display: flex;
-
-    flex-flow: row wrap;
-    padding: 30px 30px 20px 30px;
-    color: #994DC8;
-    background: linear-gradient(to top, #DBD0E9, white);
-    height: fit-content;
-    border-top: 1px solid #e5e5e5;
-}
+/* 
 
 .footer>* {
     flex: 1 100%;
@@ -907,4 +936,23 @@ footer {
     .footer__nav {
         flex: 2 0px;
     }
+} 
+
+
+.footer {
+    display: flex;
+
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #994DC8;
+    background: linear-gradient(to top, #DBD0E9, white);
+    height: fit-content;
+    border-top: 1px solid #e5e5e5;
 }
+
+
+
+
+
+*/
+
