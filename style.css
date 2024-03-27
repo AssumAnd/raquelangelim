@@ -9,7 +9,7 @@
 }
 
 
-header a{
+header a {
     color: #C864C2;
 }
 
@@ -550,7 +550,7 @@ mark {
 }
 
 
-footer{
+footer {
     font-family: 'Quicksand', sans-serif;
     padding: 50px;
     color: #994DC8;
@@ -558,31 +558,32 @@ footer{
     height: fit-content;
     border-top: 1px solid #e5e5e5;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.nomePDF h2{
+.nomePDF h2 {
     font-weight: 400;
     font-size: 1.5rem;
     margin-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
 }
 
-.nav__title{
+.nav__title {
     text-transform: uppercase;
     margin-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
 }
 
-#footerf{
+#footerf {
     font-size: 24px;
-    cursor:default;
+    cursor: default;
 }
 
-.footerli li{
+.footerli li {
     list-style-type: none;
     font-size: 17.6px;
 }
@@ -604,7 +605,7 @@ footer{
         display: block;
     }
 
-    #footerf{
+    #footerf {
         font-size: 16px;
     }
 }
@@ -746,10 +747,56 @@ footer{
         padding-bottom: 30px;
     }
 
-    .footer-content{
+    .footer-content {
         flex-direction: column;
         align-items: center;
         margin: auto;
+    }
+
+    .nomePDF {
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        WIDTH: 45%;
+        padding: 10px;
+        border-bottom: 2px solid rgba(230, 170, 21, 0.699);
+    }
+
+    .nomePDF h2 {
+        margin-bottom: 0;
+    }
+
+    #footerf {
+        display: flex;
+        TEXT-ALIGN: CENTER;
+        FONT-SIZE: 1.6em;
+        padding: 20px;
+
+    }
+
+    .nav__title {
+        margin-bottom: 0;
+        WIDTH: 100%;
+        border-top: 1px solid rgba(230, 170, 21, 0.699);
+
+    }
+
+    .footerli {
+        text-align: center;
+        WIDTH: 70%;
+        padding: 10px;
+
+    }
+
+    footer {
+        padding: 10PX;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #pdf {
+        width: 50%;
     }
 }
 
@@ -821,11 +868,12 @@ footer{
     padding: 10px;
 }
 
-#pdf:hover{
+#pdf:hover {
     color: white;
     background: #994DC8;
     border: 1px solid white
 }
+
 /* 
 
 .footer>* {
@@ -967,4 +1015,3 @@ footer{
 
 
 */
-
