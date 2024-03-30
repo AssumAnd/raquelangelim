@@ -493,9 +493,12 @@ mark {
     background-color: #DBD0E9;
 }
 
+#cont-bar{
+    border-bottom: 1PX SOLID #c0c0c0;
+}
 .contato {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 100px;
+    padding-bottom: 100px;
     background-repeat: no-repeat;
     background-position: 40%;
     background-size: 15%;
@@ -514,7 +517,9 @@ mark {
     text-transform: uppercase;
     font-size: 50px;
     font-weight: 300;
+    width: fit-content;
 }
+
 
 .content-contato p {
     padding: 5px;
@@ -573,6 +578,7 @@ footer {
 }
 
 .nav__title {
+    font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
@@ -581,6 +587,7 @@ footer {
 #footerf {
     font-size: 24px;
     cursor: default;
+ 
 }
 
 .footerli li {
@@ -604,10 +611,22 @@ footer {
     #frase2 {
         display: block;
     }
+    #footerf{
+        width: 30%;
+        text-align: center;
+    }
+/* 
+    footer {
+        padding: 15px;
+    }
 
     #footerf {
         font-size: 16px;
     }
+
+    .footerli h2, .footerli p, .nomePDF h2{
+        font-size: 10PX;
+    } */
 }
 
 @media screen and (max-width: 1100px) {
@@ -619,6 +638,9 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+    .nav__title {
+        margin-bottom: 0;
+    }
 
     .content-contato,
     .frase {
@@ -768,6 +790,7 @@ footer {
     }
 
     #footerf {
+        width: 80%;
         display: flex;
         TEXT-ALIGN: CENTER;
         FONT-SIZE: 1.6em;
