@@ -284,6 +284,11 @@ mark {
     background-position: calc(190deg);
 }
 
+.perguntasBox {
+    width: 60%;
+
+}
+
 .perguntasBox h1 {
     font-family: 'Commissioner', sans-serif;
     text-align: center;
@@ -493,9 +498,10 @@ mark {
     background-color: #DBD0E9;
 }
 
-#cont-bar{
+#cont-bar {
     border-bottom: 1PX SOLID #c0c0c0;
 }
+
 .contato {
     padding: 100px;
     padding-bottom: 100px;
@@ -587,7 +593,7 @@ footer {
 #footerf {
     font-size: 24px;
     cursor: default;
- 
+
 }
 
 .footerli li {
@@ -611,11 +617,13 @@ footer {
     #frase2 {
         display: block;
     }
-    #footerf{
+
+    #footerf {
         width: 30%;
         text-align: center;
     }
-/* 
+
+    /* 
     footer {
         padding: 15px;
     }
