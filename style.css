@@ -28,8 +28,7 @@ Lavanda suave (#E1D5E7)
 */
 
 /* NAVBAR*/
-.info, .textos, .perguntas, .comoFunciona, .contato,
-ul {
+.info, .textos, .perguntas, .contato, ul {
     color: #994DC8
 }
 
@@ -212,28 +211,11 @@ mark {
     color: #C864C2;
 }
 
-.comoFunciona {
-    text-align: center;
-    background-color: #ede9ed;
-}
-
-.comoFuncionaBox i {
-    font-size: 1.2em;
-}
-
 .iconfrase p {
     font-family: 'Comfortaa', sans-serif;
     padding-top: 10px;
     font-weight: 100;
     font-size: 20px;
-}
-
-.comoFunciona h1 {
-    font-family: 'Quicksand', sans-serif;
-    padding-top: 40px;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 2em;
 }
 
 .formacao {
@@ -343,9 +325,9 @@ mark {
     border-radius: 50%;
 }
 
-.teste1,
-.teste2,
-.teste3 {
+.content-1,
+.content-2,
+.content-3 {
     gap: 40px;
     display: flex;
     align-items: center;
@@ -436,7 +418,88 @@ mark {
     border-radius: 50%;
 }
 
-.teste3 img {
+.marcar {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://img.freepik.com/fotos-gratis/a-estrutura-detalhada-de-marmore-em-padrao-natural-para-plano-de-fundo-e-design_1258-77635.jpg?t=st=1745626687~exp=1745630287~hmac=4a8618fc21e6bc0c8230e66322efdd4d13d5d39a0f2cf54ba4233b3d4e68da3a&w=740');
+
+}
+
+
+
+.text-mar h1 {
+    text-align: center;
+    font-weight: 100;
+    padding-top: 30PX;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 2em;
+    color: #994DC8;
+
+}
+
+.text-mar p {
+    padding: 10PX 0 30PX 0;
+    text-align: center;
+    font-size: 25px;
+    color: #994DC8;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.img-text img {
+    height: 300px;
+    width: 300px;
+}
+
+
+.text {
+    width: 40%;
+
+
+}
+
+.div-central {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 50px 0 50px 0;
+    color: #7531A0;
+}
+
+
+.text{
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.text h3{
+    font-weight: 100;
+}
+
+.cont {
+    margin-top: 10px;
+    cursor: pointer;
+    background: transparent;
+    width: 230PX;
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid #7531A0;
+
+}
+.cont:hover{
+    background-color: #994DC8;
+    color: white;
+}
+
+
+
+.content-3 img {
     border-radius: 0;
     padding: 5px;
 }
@@ -507,7 +570,6 @@ mark {
     padding-bottom: 100px;
     background-repeat: no-repeat;
     background-position: 40%;
-    background-size: 15%;
     background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTc3aXQ1Zmpqa3k2eHVvOXc4bGo1YTdvY2M3ZXJmZXppbXl6Nm91YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/kMAsQuuEeQIwm4eSVJ/giphy.gif");
 }
 
@@ -532,15 +594,6 @@ mark {
 }
 
 
-.comoFuncionaBox {
-    color: gray;
-    display: flex;
-    padding-top: 75PX;
-    padding-bottom: 100px;
-    align-items: center;
-    font-size: 2em;
-    justify-content: space-around;
-}
 
 .mapa iframe {
     width: 600PX;
@@ -667,15 +720,15 @@ footer {
         margin: auto;
     }
 
-    .teste1 {
+    .content-1 {
         flex-direction: column;
     }
 
-    .teste2 {
+    .content-2 {
         flex-direction: column-reverse;
     }
 
-    .teste3 {
+    .content-3 {
         flex-direction: column;
     }
 
@@ -698,9 +751,9 @@ footer {
         height: 300px;
     }
 
-    .teste1,
-    .teste2,
-    .teste3 {
+    .content-1,
+    .content-2,
+    .content-3 {
 
         font-size: 20px;
         margin: 0px;
@@ -769,13 +822,6 @@ footer {
         padding-bottom: 30px;
     }
 
-    .comoFuncionaBox {
-        flex-direction: column;
-        gap: 50px;
-        padding: 10px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
 
     .footer-content {
         flex-direction: column;
