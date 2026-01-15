@@ -2,37 +2,60 @@
 <html lang="pt-br">
 
 <head>
+  <!-- [MANTIDO] CSS e fontes -->
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="icon" type="image/png" href="./assets/logo.png" style="border-radius: 50%" />
+  <link rel="icon" type="image/png" href="./assets/logo.png" />
+
+  <!-- [MANTIDO] Responsividade -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Raquel Angelim</title>
+
+  <!-- [ALTERADO] TITLE – agora otimizado para SEO local -->
+  <title>Psicóloga ABA e TEA na Tijuca e Grajaú | Raquel Angelim</title>
+
+  <!-- [ADICIONADO] Meta description – aparece no Google -->
+  <meta name="description"
+    content="Psicóloga infantil e terapeuta ABA especializada em TEA. Atendimento na Tijuca e Grajaú, Rio de Janeiro. Agende pelo WhatsApp." />
+
+  <!-- [ADICIONADO] SEO local básico -->
+  <meta name="robots" content="index, follow">
+  <meta name="geo.region" content="BR-RJ">
+  <meta name="geo.placename" content="Tijuca, Grajaú, Rio de Janeiro">
+
+  <!-- [ALTERADO] Schema JSON-LD – enriquecido para SEO local -->
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Psychologist",
-  "name": "Raquel Angelim",
-  "image": "https://www.raquelangelim.com.br/assets/raquelangelim.jpeg",
-  "url": "https://www.raquelangelim.com.br",
-  "telephone": "+55-21-96728-0122",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Rua Conde de Bonfim, 344 - Loja 105",
-    "addressLocality": "Tijuca",
-    "addressRegion": "RJ",
-    "postalCode": "20520-051",
-    "addressCountry": "BR"
-  },
-  "priceRange": "$$",
-  "description": "Psicóloga infantil e terapeuta ABA especializada no atendimento a crianças com TEA no Rio de Janeiro.",
-  "areaServed": ["Tijuca", "Grajaú", "Vila Isabel", "Maracanã", "Rio de Janeiro"]
-}
-</script>
+  {
+    "@context": "https://schema.org",
+    "@type": "Psychologist",
+    "name": "Raquel Angelim",
+    "url": "https://www.raquelangelim.com.br",
+    "image": "https://www.raquelangelim.com.br/assets/raquelangelim.jpeg",
+    "telephone": "+55-21-96728-0122",
+    "priceRange": "$$",
+    "description": "Psicóloga infantil e terapeuta ABA especializada no atendimento de crianças com TEA no Rio de Janeiro.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Conde de Bonfim, 344 - Loja 105",
+      "addressLocality": "Tijuca",
+      "addressRegion": "RJ",
+      "postalCode": "20520-051",
+      "addressCountry": "BR"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Tijuca, Grajaú, Vila Isabel, Maracanã, Rio de Janeiro"
+    },
+    "sameAs": [
+      "https://wa.me/5521967280122"
+    ]
+  }
+  </script>
 
 </head>
+
 
 <header>
   <nav>
@@ -328,5 +351,6 @@
   </body>
 </main>
 <script src="script.js"></script>
+
 
 </html>
