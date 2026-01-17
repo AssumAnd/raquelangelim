@@ -1,110 +1,59 @@
-/* TEXTOS */
-.banner h1 {
-  font-size: 2.5em;
-  color: var(--color-secondary);
-  margin: 0;
-}
-
-.banner-cont p {
-  font-size: 1.25em;
-  color: var(--color-secondary);
-  margin: 0;
-}
-
-/* IMAGENS - responsive */
-.textos img,
-.imgsobre1 img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 50%;
-  display: block;
-}
-
-/* CARDS CÍRCULO */
-.circles {
+/* =========================
+   NAVBAR – COMPONENTES
+========================= */
+.nav-list {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to top, #DBD0E9, white);
-  padding: 24px 0;
-  gap: 16px;
 }
 
-.circle1 {
-  width: 200px;
-  height: 200px;
-  perspective: 1000px;
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
 }
 
-/* card flip */
-.card {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.6s ease;
+.nav-list a {
+  text-transform: uppercase;
+  font-size: 0.9rem;
 }
 
-.card:hover {
-  transform: rotateY(180deg);
-}
-
-.front,
-.back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 50%;
-}
-
-.back {
-  background: #f0f0f0;
-  transform: rotateY(180deg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-alt);
-}
-
-/* BOTÕES */
-.cont,
-#pdf {
-  border: 1px solid var(--color-primary);
-  background: transparent;
-  color: var(--color-primary);
-  padding: 10px 20px;
-  border-radius: 20px;
+/* =========================
+   MENU MOBILE
+========================= */
+.mobile-menu {
+  display: none;
   cursor: pointer;
 }
 
-.cont:hover,
-#pdf:hover {
-  background-color: var(--color-accent);
-  color: white;
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #C864C2;
+  margin: 8px;
+  transition: 0.3s;
 }
 
-/* WHATSAPP icon (fixed) */
-.banner i {
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  font-size: 40px;
-  background-color: #25D366;
-  color: white;
-  padding: 14px;
-  border-radius: 50%;
-  border: 3px solid var(--color-secondary);
-}
+/* =========================
+   MENU MOBILE – RESPONSIVO
+========================= */
+@media (max-width: 999px) {
+  .nav-list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 45vw;
+    height: 70vh;
+    background: #ede9ed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
 
-/* Larger screens layout tweaks */
-@media (min-width: 900px) {
-  .circles {
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 40px 0;
-    gap: 40px;
+  .nav-list.active {
+    transform: translateX(0);
+  }
+
+  .mobile-menu {
+    display: block;
   }
 }
