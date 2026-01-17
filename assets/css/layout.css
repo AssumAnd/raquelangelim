@@ -1,185 +1,55 @@
-/* NAV - mobile-first */
+/* =========================
+   NAVBAR – ESTRUTURA
+========================= */
 nav {
-  background-color: var(--color-bg-main);
-  color: var(--color-secondary);
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 400;
+  background-color: #ede9ed;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  font-family: var(--font-heading);
-  padding: 0.75rem 1rem;
+  justify-content: space-around;
+  height: 8vh;
+  position: relative;
 }
 
-/* Mobile menu button visible by default */
-.mobile-menu {
-  display: block;
-  cursor: pointer;
-}
-.mobile-menu div {
-  width: 28px;
-  height: 3px;
-  background: var(--color-secondary);
-  margin: 5px 0;
-  transition: transform 0.2s, opacity 0.2s;
-}
-
-/* Nav list hidden on mobile by default; show when .nav-open is applied (toggle by JS) */
-.nav-list {
-  display: none;
-  gap: 32px;
-  list-style: none;
-  position: absolute;
-  top: 64px;
-  right: 1rem;
-  background: var(--color-bg-main);
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-  flex-direction: column;
-}
-
-/* helper to open the nav (add .nav-open to nav element) */
-.nav-open .nav-list,
-.nav-list.nav-open {
-  display: flex;
-}
-
-/* BANNER - mobile-first (stacked) */
-.banner {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
+/* =========================
+   BANNER / HERO
+========================= */
 .banner-cont {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 24px; /* smaller gap on mobile */
-  padding: 1.5rem 0;
+  gap: 95px;
+  padding: 60px 20px;
+  flex-wrap: wrap;
 }
 
-/* SEÇÕES - mobile-first */
+.banner h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.2rem;
+  color: #7531A0;
+}
+
+/* =========================
+   SEÇÕES GERAIS
+========================= */
+section {
+  padding: 60px 20px;
+}
+
 .info,
 .textos,
 .perguntas,
 .contato {
-  padding: 40px 20px;
+  color: #994DC8;
 }
 
-.info {
-  background-color: var(--color-bg-soft);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.textos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.content-1,
-.content-2,
-.content-3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-  margin: 24px 0;
-}
-
-.perguntas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.perguntasBox {
-  width: 100%;
-}
-
-/* FRASE */
-.frase {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 20px;
-  background-color: var(--color-bg-soft);
-}
-
-/* CONTATO */
-.content-contato {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
-
-/* FOOTER */
-footer {
-  background-color: #2e1065;
-  color: white;
-  padding: 40px 20px 30px;
-}
-
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Desktop / larger screens */
-@media (min-width: 900px) {
+/* =========================
+   RESPONSIVIDADE
+========================= */
+@media (max-width: 999px) {
   .banner-cont {
-    flex-direction: row;
-    gap: 95px;
-    padding: 2.5rem 0;
-  }
-
-  .content-1,
-  .content-2,
-  .content-3 {
-    flex-direction: row;
     gap: 40px;
-    margin: 40px 0;
-  }
-
-  .perguntasBox {
-    width: 60%;
-  }
-
-  .content-contato {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .footer-content {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-}
-
-/* Desktop nav: show list and hide mobile button */
-@media (min-width: 1000px) {
-  .mobile-menu {
-    display: none;
-  }
-
-  .nav-list {
-    display: flex !important;
-    position: static;
-    padding: 0;
-    background: transparent;
-    box-shadow: none;
-    flex-direction: row;
-    gap: 32px;
-    align-items: center;
+    text-align: center;
   }
 }
