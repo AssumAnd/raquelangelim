@@ -2,7 +2,10 @@
    HEADER / NAVBAR – LAYOUT
 ========================= */
 header {
-  background-color: var(--color-light-bg);
+   background-color: var(--color-light-bg);
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+   position: relative;
+   z-index: 10;
 }
 
 nav {
