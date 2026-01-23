@@ -1,31 +1,73 @@
 /* =========================
    FONTES
 ========================= */
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Commissioner&family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&family=Commissioner:wght@400;500;600&family=Quicksand:wght@500&display=swap');
 
 /* =========================
-   RESET & BASE
+   VARIÁVEIS DE IDENTIDADE (FIGMA)
+========================= */
+:root {
+  /* Cores principais */
+  --color-primary: #7531A0;   /* Roxo principal */
+  --color-secondary: #C864C2; /* Roxo claro / links */
+  --color-background: #ffffff;
+  --color-light-bg: #ede9ed;  /* fundos suaves (header/footer) */
+
+  /* Texto */
+  --text-color-base: #7531A0;
+  --text-color-muted: #994DC8;
+
+  /* Fontes */
+  --font-heading: 'Comfortaa', sans-serif;
+  --font-body: 'Commissioner', sans-serif;
+}
+
+/* =========================
+   RESET GLOBAL
 ========================= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
+/* =========================
+   BASE DO DOCUMENTO
+========================= */
 body {
-  font-family: 'Comfortaa', sans-serif;
-  background-color: #ffffff;
-  color: #7531A0;
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--text-color-base);
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* =========================
-   ELEMENTOS GLOBAIS
+   TIPOGRAFIA BASE
+========================= */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-primary);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+p {
+  font-family: var(--font-body);
+  font-weight: 400;
+  color: var(--text-color-base);
+}
+
+/* =========================
+   LINKS E ELEMENTOS INLINE
 ========================= */
 a {
   text-decoration: none;
-  color: #C864C2;
+  color: var(--color-secondary);
   transition: opacity 0.3s ease;
 }
 
@@ -35,12 +77,15 @@ a:hover {
 
 mark {
   background: none;
-  color: #7531A0;
+  color: var(--color-primary);
+  font-weight: 600;
 }
 
-/* Listas sem estilo padrão */
+/* =========================
+   LISTAS
+========================= */
 ul {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
