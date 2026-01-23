@@ -2,7 +2,7 @@
    HEADER / NAVBAR – LAYOUT
 ========================= */
 header {
-   background-color: black;
+   background-color: var(--color-light-bg);
    overflow: visible; /* ✅ ESSENCIAL para o menu mobile */
    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
    position: sticky;
