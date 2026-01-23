@@ -1,55 +1,134 @@
 /* =========================
-   NAVBAR – ESTRUTURA
+   HEADER / NAVBAR – LAYOUT
 ========================= */
+header {
+  background-color: var(--color-light-bg);
+}
+
 nav {
-  font-family: 'Commissioner', sans-serif;
-  font-weight: 400;
-  background-color: #ede9ed;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 80px;
+
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  height: 8vh;
-  position: relative;
+  justify-content: space-between;
 }
 
 /* =========================
-   BANNER / HERO
+   HERO / BANNER – LAYOUT
 ========================= */
+.banner {
+  background-color: var(--color-background);
+}
+
 .banner-cont {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 24px;
+
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 95px;
-  padding: 60px 20px;
+  justify-content: space-between;
+  gap: 80px;
   flex-wrap: wrap;
 }
 
-.banner h1 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 2.2rem;
-  color: #7531A0;
+/* =========================
+   SEÇÕES – ESTRUTURA PADRÃO
+========================= */
+section {
+  width: 100%;
+}
+
+section > header {
+  max-width: 1200px;
+  margin: 0 auto 40px auto;
+  padding: 0 24px;
+}
+
+section > header h2 {
+  margin-bottom: 8px;
+}
+
+section > header p {
+  color: var(--text-color-muted);
 }
 
 /* =========================
-   SEÇÕES GERAIS
+   CONTEÚDO CENTRALIZADO
 ========================= */
-section {
-  padding: 60px 20px;
-}
-
-.info,
 .textos,
 .perguntas,
-.contato {
-  color: #994DC8;
+.sobre-figma {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 24px;
+}
+
+/* =========================
+   CONTATO – GRID
+========================= */
+.contato-figma {
+  background-color: var(--color-light-bg);
+}
+
+.contato-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 24px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+
+/* =========================
+   MAPA
+========================= */
+.contato-mapa iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  border-radius: 12px;
+}
+
+/* =========================
+   FRASE / CITAÇÃO
+========================= */
+.quote {
+  background-color: var(--color-background);
+  padding: 80px 24px;
+}
+
+.quote blockquote {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  background-color: var(--color-light-bg);
+  padding: 24px;
+  text-align: center;
 }
 
 /* =========================
    RESPONSIVIDADE
 ========================= */
-@media (max-width: 999px) {
+@media (max-width: 900px) {
+
   .banner-cont {
-    gap: 40px;
+    flex-direction: column;
     text-align: center;
   }
+
+  .contato-grid {
+    grid-template-columns: 1fr;
+  }
+
 }
