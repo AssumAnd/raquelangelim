@@ -69,15 +69,15 @@
 
 .hero-image {
    display: flex;
-   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-  justify-content: center;
+   justify-content: center;
 }
 
 .hero-image img {
-  width: 100%;
-  max-width: 420px;
-  border-radius: 24px;
-  object-fit: cover;
+   width: 100%;
+   max-width: 420px;
+   border-radius: 24px;
+   object-fit: cover;
+   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
 @media (max-width: 900px) {
