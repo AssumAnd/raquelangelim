@@ -65,18 +65,23 @@ section > header p {
    CONTEÚDO CENTRALIZADO
 ========================= */
 .textos,
-.perguntas,
-.sobre-figma {
+.perguntas {
   max-width: 1200px;
   margin: 0 auto;
   padding: 80px 24px;
-   background-color: #f1eef2;
 }
 
+/* =========================
+   SOBRE – INFORMAÇÕES PROFISSIONAIS
+========================= */
+.sobre-figma {
+  width: 100%;
+  background-color: #f1eef2;
+  padding: 80px 24px;
+}
 .sobre-container {
   max-width: 1200px;
   margin: 0 auto;
-
   background-color: rgba(255, 255, 255, 0.35); /* faixa suave como no Figma */
   padding: 32px 40px;
   border-radius: 12px;
