@@ -209,6 +209,27 @@ section > header p {
   margin-bottom: 14px;
 }
 
+/* =========================
+   FAQ
+========================= */
+.faq {
+    background-color: var(--color-light);
+    padding: 80px 24px;
+}
+
+.faq-list {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /* Espaço entre as perguntas */
+}
+
+@media (max-width: 768px) {
+    .faq {
+        padding: 40px 16px;
+    }
+}
 
 /* =========================
    MAPA
