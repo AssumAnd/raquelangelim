@@ -128,11 +128,12 @@ section > header p {
   }
 }
 
-.formacao .star {
+.star {
   color: #a855f7;
   margin-right: 8px;
   font-size: 0.9em;
 }
+
 
 /* =========================
    CONTATO – GRID
