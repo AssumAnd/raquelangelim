@@ -156,6 +156,21 @@ section > header p {
   gap: 32px;
   margin-top: 40px;
 }
+.card.lateral .foto-perfil {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 24px auto;
+
+  border-radius: 50%;
+  background-color: #f5f5f5;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
 
 /* =========================
    MAPA
