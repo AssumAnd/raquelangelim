@@ -96,12 +96,8 @@ section > header p {
   font-weight: 700;
 }
 
-.sobre-header h2 span {
-  color: #8b5cf6;
-}
-
 .crp {
-  color: #7c3aed;
+  color: var(--text-color-muted);
   font-weight: 600;
   margin-top: 8px;
 }
