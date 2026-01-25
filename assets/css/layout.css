@@ -262,6 +262,7 @@ section > header p {
 .quote {
   background-color: var(--color-background);
   padding: 80px 24px;
+  border-top: 1px solid rgba(139, 92, 246, 0.15);
 }
 
 .quote blockquote {
@@ -269,6 +270,21 @@ section > header p {
   margin: 0 auto;
   text-align: center;
 }
+
+.quote blockquote p {
+  font-size: 18px;
+  line-height: 1.6;
+  font-style: italic;
+  color: var(--text-color-muted);
+}
+
+.quote blockquote footer {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #7c3aed;
+  font-weight: 500;
+}
+
 
 /* =========================
    FOOTER
