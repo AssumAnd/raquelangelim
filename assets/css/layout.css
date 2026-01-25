@@ -375,6 +375,7 @@ footer p.footer-frase span {
 .whatsapp-float {
   position: fixed;
   bottom: 24px;
+   color: #ffffff;
   right: 24px;
   width: 56px;
   height: 56px;
