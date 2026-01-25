@@ -295,6 +295,17 @@ footer {
   text-align: center;
 }
 
+footer p.footer-frase {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--text-color-muted);
+}
+
+footer p.footer-frase span {
+  color: #7c3aed;
+}
+
+
 /* =========================
    RESPONSIVIDADE
 ========================= */
