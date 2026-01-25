@@ -155,6 +155,40 @@
   color: var(--color-secondary);
 }
 
+/* =========================
+   THERAPIES
+========================= */
+
+.therapy-card {
+    background-color: var(--color-white);
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    border-left: 5px solid var(--color-secondary); /* A linha colorida na esquerda */
+    display: flex;
+    flex-direction: column;
+}
+
+.therapy-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px); /* Efeito de subir ao passar o mouse */
+}
+
+.therapy-card h3 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    margin-bottom: 16px;
+    font-size: 1.3rem;
+}
+
+.therapy-card p {
+    font-family: var(--font-body);
+    color: var(--color-text);
+    line-height: 1.8;
+    margin: 0;
+}
+
 
 /* =========================
    MENU MOBILE – COMPORTAMENTO
