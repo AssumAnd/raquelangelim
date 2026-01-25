@@ -213,23 +213,29 @@ section > header p {
    FAQ
 ========================= */
 .faq {
-    background-color: var(--color-light);
-    padding: 80px 24px;
+    padding: 60px 0;
+    background-color: var(--color-light); /* Fundo leve para destacar os cards */
 }
 
-.faq-list {
-    max-width: 900px;
+/* Padrão de título solicitado */
+.faq-header {
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    padding: 0 24px;
+    text-align: center; /* Centralizado como na imagem */
+}
+
+.faq-header h2 {
+    margin-bottom: 8px;
+    font-size: 2.2rem; /* Tamanho de destaque */
+}
+
+.faq .container {
+    max-width: 1200px;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 24px; /* Espaço entre as perguntas */
+    padding: 0 24px;
 }
 
-@media (max-width: 768px) {
-    .faq {
-        padding: 40px 16px;
-    }
-}
 
 /* =========================
    MAPA
