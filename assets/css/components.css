@@ -140,6 +140,10 @@
   display: none;
   cursor: pointer;
 }
+.hamburger-menu {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 .mobile-menu div {
   width: 28px;
