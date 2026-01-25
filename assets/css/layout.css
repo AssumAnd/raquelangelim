@@ -109,7 +109,7 @@ section > header p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
-  align-items: start;
+  align-items: stretch;
 }
 .card {
   background: white;
