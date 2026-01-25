@@ -86,6 +86,48 @@ section > header p {
   padding: 32px 40px;
   border-radius: 12px;
 }
+.sobre-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.sobre-header h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.sobre-header h2 span {
+  color: #8b5cf6;
+}
+
+.crp {
+  color: #7c3aed;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.nome {
+  color: #6b7280;
+}
+
+.sobre-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+.card {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+@media (max-width: 900px) {
+  .sobre-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 /* =========================
    CONTATO – GRID
