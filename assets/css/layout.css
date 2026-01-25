@@ -40,6 +40,10 @@ nav {
   flex-wrap: wrap;
 }
 
+.hero-actions {
+  margin-top: 1.75rem;
+}
+
 /* =========================
    SEÇÕES – ESTRUTURA PADRÃO
 ========================= */
