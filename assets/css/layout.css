@@ -172,6 +172,7 @@ section > header p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+   object-position: 40% center;
   border-radius: 50%;
 }
 .card.formacao li {
