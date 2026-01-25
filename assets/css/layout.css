@@ -86,8 +86,9 @@ section > header p {
 }
 
 .sobre-header {
-  text-align: center;
-  margin-bottom: 64px;
+   text-align: center;
+   margin-bottom: 64px;
+   padding-top: 80px;
 }
 
 .sobre-header h2 {
